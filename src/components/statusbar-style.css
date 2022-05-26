@@ -1,0 +1,17 @@
+.skill-tab {
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+.status-bar-title {
+  display: flex;
+  justify-content: space-between;
+}
+.status-bar {
+  height: 5px;
+  border-radius: 5px;
+  background-color: rgb(181, 163, 163);
+}
+.status-bar-left {
+  background-color: #149ddd;
+  border-radius: 10px;
+}

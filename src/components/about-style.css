@@ -1,0 +1,48 @@
+.about-img {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  object-fit: cover;
+}
+.counter-box > p > span {
+  font-size: 2.5em;
+  color: #272829;
+}
+.counter-box {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  text-align: center;
+}
+.counter-box > p {
+  color: #122f57;
+  font-size: 1.5em;
+}
+.info-container-small {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media only screen and (min-width: 800px) {
+  .title {
+    color: #fff;
+    width: 400px;
+  }
+  .about-img {
+    width: 300px;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    margin-right: 1rem;
+  }
+  .img-fluid {
+    width: 300px;
+    height: auto;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .title {
+    color: #fff;
+    width: 600px;
+  }
+}
