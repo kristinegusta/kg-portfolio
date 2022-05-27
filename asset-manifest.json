@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/kg-portfolio/static/css/main.a1c583db.css",
+    "main.js": "/kg-portfolio/static/js/main.dfbdc30b.js",
+    "static/media/navbar-img.JPG": "/kg-portfolio/static/media/navbar-img.07997e50489b5ff109f0.JPG",
+    "static/media/prof-img-2.png": "/kg-portfolio/static/media/prof-img-2.697cafae9815cf3fa72c.png",
+    "static/media/hero-img.jpg": "/kg-portfolio/static/media/hero-img.a6580d1d3fb134a59bb3.jpg",
+    "static/media/AIscreenshot.JPG": "/kg-portfolio/static/media/AIscreenshot.288bcf0f8e66f06430de.JPG",
+    "static/media/theaterapp.jpg": "/kg-portfolio/static/media/theaterapp.5975de885b90684f1118.jpg",
+    "static/media/mockup.JPG": "/kg-portfolio/static/media/mockup.e6f788f048ac4074c93a.JPG",
+    "static/media/hero-img-large.png": "/kg-portfolio/static/media/hero-img-large.45d0f2965a648a18b8b9.png",
+    "static/media/DogBook.JPG": "/kg-portfolio/static/media/DogBook.f601ee481535e0530084.JPG",
+    "static/media/port-screenshot.JPG": "/kg-portfolio/static/media/port-screenshot.f0932fe589c3898bc597.JPG",
+    "index.html": "/kg-portfolio/index.html",
+    "main.a1c583db.css.map": "/kg-portfolio/static/css/main.a1c583db.css.map",
+    "main.dfbdc30b.js.map": "/kg-portfolio/static/js/main.dfbdc30b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a1c583db.css",
+    "static/js/main.dfbdc30b.js"
+  ]
+}
