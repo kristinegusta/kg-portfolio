@@ -24,10 +24,10 @@ const About = () => {
         About
       </h2>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
-        perferendis minima quaerat quis cumque eius dolore voluptate qui dicta,
-        consectetur consequuntur necessitatibus, modi labore iste a eligendi
-        nemo nam? Obcaecati.
+        Web Developer starting her career . After trying myself out in another
+        industry, found out that IT is the right choice for me . <br></br>
+        Flexible, creative and involved. And positive. Always. Love to code,
+        ride horses,have fun and my dog!
       </p>
       <div className="info-container-large">
         <div className="about-img" data-aos="fade-right">
@@ -35,10 +35,7 @@ const About = () => {
         </div>
         <div className="info-container-small">
           <h3 className="section-subtitle">Junior Full-stack Web Developer</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas dolore
-            explicabo tempore modi aut nesciunt.
-          </p>
+          <p>Eager to develop the best complex digital solutions.</p>
           <ul>
             <li>
               <FaBirthdayCake />
@@ -68,10 +65,9 @@ const About = () => {
             </li>
           </ul>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
-            inventore soluta molestias quaerat, sed ex eligendi laboriosam
-            possimus repellendus omnis aliquid, cumque necessitatibus sapiente
-            exercitationem nobis vitae. Rerum, culpa omnis!
+            Experience with the latest frontend technologies (React, Webpack,
+            HTML5, CSS3) and backend technologies (Node.js, Express/Koa, web
+            sockets, SQL-databases).
           </p>
         </div>
       </div>
@@ -79,18 +75,18 @@ const About = () => {
       <h2 className="section-title" data-aos="fade-right">
         Facts
       </h2>
-      <p>
+      {/* <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nobis ullam
         nesciunt blanditiis omnis alias rem dolores voluptates accusamus neque.
         Dicta neque doloremque tempore aliquid facere obcaecati veniam nobis
         esse.
-      </p>
+      </p> */}
       <div className="counter-box ">
         <p>
           {" "}
           <span
             data-purecounter-start="0"
-            data-purecounter-end="28"
+            data-purecounter-end="1000"
             className="purecounter"
             ref={counter}
           >
@@ -98,7 +94,7 @@ const About = () => {
             0{" "}
           </span>{" "}
           <br />
-          Weeks of intensive training
+          Hours of intensive training
         </p>
       </div>
       <div className="counter-box ">
@@ -122,7 +118,7 @@ const About = () => {
           {" "}
           <span
             data-purecounter-start="0"
-            data-purecounter-end="1000"
+            data-purecounter-end="50"
             className="purecounter"
             ref={counter}
           >
@@ -130,7 +126,7 @@ const About = () => {
             0{" "}
           </span>{" "}
           <br />
-          lines of code written
+          days until ready for new challanges
         </p>
       </div>
     </>

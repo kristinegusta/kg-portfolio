@@ -1,0 +1,37 @@
+.contact {
+  padding: 30px;
+  background: #fff;
+  width: 100%;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.info {
+  display: flex;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.contact svg {
+  font-size: 20px;
+  color: #149ddd;
+  float: left;
+  width: 44px;
+  height: 44px;
+  background: #dff3fc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+  padding: 10px;
+  margin-right: 20px;
+}
+.info p {
+  font-size: 14px;
+  color: #173b6c;
+  margin-top: 5px;
+}
+
+.map-container {
+  height: 400px;
+}

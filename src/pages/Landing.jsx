@@ -9,6 +9,7 @@ import Hero from "../components/Hero";
 import Resume from "../components/Resume";
 import { workExperience, educationExperience } from "../data/resume";
 import Carousel from "../components/Carousel";
+import Contact from "../components/Contact";
 
 const Landing = () => {
   console.log(workExperience);
@@ -28,6 +29,11 @@ const Landing = () => {
         <h2 className="section-title" data-aos="fade-right">
           Skills
         </h2>
+        <p>
+          The number of coding languages has grown but tend to share underlying
+          principles. As a full stack developer, I understand the need to learn
+          the languages required for possible projects according to their needs.
+        </p>
         <div className="skills-cont-lg">
           <div className="skills-cont-sm">
             <StatusBar tech={"HTML"} level={"100%"} />
@@ -70,6 +76,13 @@ const Landing = () => {
         <h2 className="section-title" data-aos="fade-right">
           Portfolio
         </h2>
+        <h3 className="section-subtitle">Various solo and group projects</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+          assumenda quaerat laboriosam. Quas similique perspiciatis blanditiis
+          beatae nobis consequuntur laudantium repellat deserunt accusantium
+          veritatis sit, minus non et quis vel.
+        </p>
         <Carousel />
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae
@@ -77,6 +90,14 @@ const Landing = () => {
           aperiam quas, harum ullam ut quos reprehenderit quaerat possimus!
           Libero ipsum blanditiis expedita.
         </p>
+      </Section>
+
+      <Section id="contact">
+        <h2 className="section-title" data-aos="fade-right">
+          Contact
+        </h2>
+        <p>Do not hesitate to contact me for a conversation!</p>
+        <Contact />
       </Section>
     </div>
   );

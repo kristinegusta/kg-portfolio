@@ -67,7 +67,7 @@ const Navbar = () => {
               <p>
                 <strong>Made with React</strong>
               </p>
-              <p>2022 Kristine Gusta</p>
+              <p>2022 &copy; Kristine Gusta</p>
             </div>
             <FaReact />
           </div>
