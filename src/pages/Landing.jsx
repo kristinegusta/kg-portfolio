@@ -46,6 +46,12 @@ const Landing = () => {
             <StatusBar tech={"Node.js"} level={"70%"} />
           </div>
         </div>
+        <h3 className="section-subtitle">Languages</h3>
+        <div className="skills-cont-sm">
+          <StatusBar tech={"Latvian"} level={"100%"} />
+          <StatusBar tech={"English"} level={"80%"} />
+          <StatusBar tech={"Dutch"} level={"50%"} />
+        </div>
       </Section>
       <Section id="resume">
         <h2 className="section-title" data-aos="fade-right">
@@ -78,18 +84,11 @@ const Landing = () => {
         </h2>
         <h3 className="section-subtitle">Various solo and group projects</h3>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
-          assumenda quaerat laboriosam. Quas similique perspiciatis blanditiis
-          beatae nobis consequuntur laudantium repellat deserunt accusantium
-          veritatis sit, minus non et quis vel.
+          A Web Developer is in charge of ensuring websites look good and
+          function properly. In order to do that, collaboration with the rest of
+          your team is very important.
         </p>
         <Carousel />
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae
-          tenetur dignissimos pariatur deleniti vero adipisci placeat maiores
-          aperiam quas, harum ullam ut quos reprehenderit quaerat possimus!
-          Libero ipsum blanditiis expedita.
-        </p>
       </Section>
 
       <Section id="contact">

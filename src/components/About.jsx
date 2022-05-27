@@ -43,7 +43,8 @@ const About = () => {
             </li>
             <li>
               <FaGlobe />
-              <strong>Website :</strong> www.example.com
+              <strong>Website :</strong>{" "}
+              https://kristinegusta.github.io/kg-portfolio/
             </li>
             <li>
               <FaPhone />
@@ -69,18 +70,20 @@ const About = () => {
             HTML5, CSS3) and backend technologies (Node.js, Express/Koa, web
             sockets, SQL-databases).
           </p>
+          <p>
+            Excited to be part of Dev community. Part of womendotcode.be/
+            community. Willing to join my first Hackathon!
+          </p>
         </div>
       </div>
 
       <h2 className="section-title" data-aos="fade-right">
         Facts
       </h2>
-      {/* <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nobis ullam
-        nesciunt blanditiis omnis alias rem dolores voluptates accusamus neque.
-        Dicta neque doloremque tempore aliquid facere obcaecati veniam nobis
-        esse.
-      </p> */}
+      <p>
+        A career as a Web developer will give me the opportunity to use my
+        creativity and technical skills.
+      </p>
       <div className="counter-box ">
         <p>
           {" "}
