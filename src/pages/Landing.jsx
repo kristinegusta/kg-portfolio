@@ -34,6 +34,7 @@ const Landing = () => {
           principles. As a full stack developer, I understand the need to learn
           the languages required for possible projects according to their needs.
         </p>
+        <h3 className="section-subtitle mg-large">Technical</h3>
         <div className="skills-cont-lg">
           <div className="skills-cont-sm">
             <StatusBar tech={"HTML"} level={"100%"} />
@@ -46,7 +47,7 @@ const Landing = () => {
             <StatusBar tech={"Node.js"} level={"70%"} />
           </div>
         </div>
-        <h3 className="section-subtitle">Languages</h3>
+        <h3 className="section-subtitle mg-large">Languages</h3>
         <div className="skills-cont-sm">
           <StatusBar tech={"Latvian"} level={"100%"} />
           <StatusBar tech={"English"} level={"80%"} />
@@ -58,10 +59,10 @@ const Landing = () => {
           Resume
         </h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore ut,
-          ipsa nobis reprehenderit enim fugiat corporis voluptatem quis quasi
-          sequi officia hic doloremque atque quisquam? Alias atque accusamus
-          cupiditate velit.
+          A diversity in the fields in ones resume , in my opinion, might be a
+          plus. I do believe my previos experiece has thought me a lot and has
+          been a good influence. However, I am looking forward to what my career
+          change will bring.
         </p>
         <div className="skills-cont-lg">
           <div className="skills-cont-sm">

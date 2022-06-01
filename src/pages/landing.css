@@ -92,6 +92,10 @@ li > svg {
 li > strong {
   margin-right: 10px;
 }
+.mg-large {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
 
 @media only screen and (min-width: 800px) {
   .title {
