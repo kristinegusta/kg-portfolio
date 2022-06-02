@@ -52,19 +52,6 @@ const Carousel = () => {
         </a>
       </SplideSlide>
       <SplideSlide>
-        <a href="https://github.com/charlottelotte2021/OneTheater_app">
-          <div className="portfolio-slide">
-            <div
-              className="portfolio-img"
-              style={{
-                backgroundImage: `url(${Theater})`,
-                backgroundPosition: "top",
-              }}
-            ></div>
-          </div>
-        </a>
-      </SplideSlide>
-      <SplideSlide>
         <a href="https://github.com/kristinegusta/kg-portfolio">
           <div className="portfolio-slide">
             <div
