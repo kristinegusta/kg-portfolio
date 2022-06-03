@@ -44,7 +44,9 @@ const About = () => {
             <li>
               <FaGlobe />
               <strong>Website :</strong>{" "}
-              https://kristinegusta.github.io/kg-portfolio/
+              <a href="https://kristinegusta.github.io/kg-portfolio/">
+                kg-portfolio/github.io
+              </a>
             </li>
             <li>
               <FaPhone />
@@ -67,12 +69,8 @@ const About = () => {
           </ul>
           <p>
             Experience with the latest frontend technologies (React, Webpack,
-            HTML5, CSS3) and backend technologies (Node.js, Express/Koa, web
-            sockets, SQL-databases).
-          </p>
-          <p>
-            Excited to be part of Dev community. Part of womendotcode.be/
-            community. Willing to join my first Hackathon!
+            HTML5, CSS3) and backend technologies (Node.js, Express,
+            SQL-databases ,MongoDB).
           </p>
         </div>
       </div>
