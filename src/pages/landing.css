@@ -117,6 +117,7 @@ li > strong {
   }
   .navbar-left {
     width: 300px !important;
+    transition: none !important;
   }
   .skills-cont-lg {
     display: flex;

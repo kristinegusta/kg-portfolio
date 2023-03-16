@@ -5,8 +5,10 @@ import {
   FaPhone,
   FaLocationArrow,
   FaMailBulk,
+  FaReact,
 } from "react-icons/fa";
 import { MdEventAvailable } from "react-icons/md";
+import { SiJavascript } from "react-icons/si";
 import profileImg from "../assets/prof-img-2.png";
 import PureCounter from "@srexi/purecounterjs";
 import "./about-style.css";
@@ -24,10 +26,14 @@ const About = () => {
         About
       </h2>
       <p>
-        Web Developer starting her career . After trying myself out in another
-        industry, found out that IT is the right choice for me . <br></br>
-        Flexible, creative and involved. And positive. Always. Love to code,
-        ride horses,have fun and my dog!
+        Web Developer embracing a promising career in the field of IT. After
+        exploring an alternative career path, I have discovered that IT is the
+        right direction for me to pursue. Possessing a flexible and creative
+        mindset, I am fully committed to my work and bring an unwaveringly
+        positive attitude to every project!
+        <br />I have a profound passion for coding and other than that, I have
+        diverse interests such as horse riding, snowboarding, traveling,
+        spending time with family and friends, including the four-legged ones.
       </p>
       <div className="info-container-large">
         <div className="about-img" data-aos="fade-right">
@@ -64,14 +70,18 @@ const About = () => {
             </li>
             <li>
               <MdEventAvailable />
-              <strong>Availability :</strong> 1 August 2022
+              <strong>Availability :</strong> Currently none
             </li>
           </ul>
           <p>
-            Experience with the latest frontend technologies (React, Webpack,
-            HTML5, CSS3) and backend technologies (Node.js, Express,
-            SQL-databases ,MongoDB).
+            Experience with the latest frontend technologies: <span>React, TypeScript, JS,
+            HTML5, CSS3</span>
           </p>
+          <p>
+            Backend technologies: <span>Django, Python, Node.js, Express,
+            SQL-databases ,MongoDB</span>
+          </p>
+          <p>Other : <span>Docker, Git, Nginx, Figma, UX/UI concepts, Scrum/Agile, Jira</span></p>
         </div>
       </div>
 
@@ -119,7 +129,7 @@ const About = () => {
           {" "}
           <span
             data-purecounter-start="0"
-            data-purecounter-end="50"
+            data-purecounter-end="328"
             className="purecounter"
             ref={counter}
           >
@@ -127,7 +137,7 @@ const About = () => {
             0{" "}
           </span>{" "}
           <br />
-          days until ready for new challanges
+          days of working experience
         </p>
       </div>
     </>

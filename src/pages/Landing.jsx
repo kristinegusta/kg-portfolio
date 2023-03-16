@@ -12,7 +12,6 @@ import Carousel from "../components/Carousel";
 import Contact from "../components/Contact";
 
 const Landing = () => {
-  console.log(workExperience);
   //use effect for AOS library
   useEffect(() => {
     AOS.init();
@@ -40,11 +39,13 @@ const Landing = () => {
             <StatusBar tech={"HTML"} level={"100%"} />
             <StatusBar tech={"CSS"} level={"85%"} />
             <StatusBar tech={"JS"} level={"75%"} />
+            <StatusBar tech={"Django"} level={"75%"} />
           </div>
           <div className="skills-cont-sm">
             <StatusBar tech={"React"} level={"65%"} />
             <StatusBar tech={"GitHub"} level={"80%"} />
             <StatusBar tech={"Node.js"} level={"70%"} />
+            <StatusBar tech={"Python"} level={"60%"} />
           </div>
         </div>
         <h3 className="section-subtitle mg-large">Languages</h3>

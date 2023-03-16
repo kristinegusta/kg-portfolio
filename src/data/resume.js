@@ -1,10 +1,29 @@
 const workExperience = [
   {
     id: 1,
+    title: "Front-end developer",
+    company: "Maastricht University DataHub",
+    location: "Maastricht, Netherlands",
+    time: "July 2022 - Present",
+    duties: [
+      {
+        id: 1,
+        dutie:
+          "Designing and implementing user-friendly web interfaces for Maastricht Data Repository (Figma/Django and React TS/FastAPI)",
+      },
+      {
+        id: 2,
+        dutie:
+          "Close collaboration with the Scrum team",
+      },
+    ],
+  },
+  {
+    id: 2,
     title: "Junior Full-stack Web Developer trainee",
     company: "BeCode.org",
     location: "Brussels, Belgium",
-    time: "January 2022 - Present",
+    time: "January 2022 - July 2022",
     duties: [
       {
         id: 1,
@@ -23,7 +42,7 @@ const workExperience = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     title: "Equestrian groom and rider",
     company: "Freelance",
     location: "Europe",
@@ -61,6 +80,13 @@ const educationExperience = [
     company: "Riga Coding School",
     location: "Riga,Latvia",
     time: "2021",
+  },
+  {
+    id: 3,
+    title: "Scrum Master Training",
+    company: "ScrumIT",
+    location: "Eindhoven, Netherlands",
+    time: "2022",
   },
 ];
 
