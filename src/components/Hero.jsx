@@ -10,9 +10,9 @@ const Hero = () => {
   useEffect(() => {
     const typed = new Typed(el.current, {
       strings: [
-        "Photographer",
         "Full stack developer",
         "Front-end developer",
+        "Photographer",
         "React Developer",
         "Traveler",
       ],

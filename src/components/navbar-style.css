@@ -19,7 +19,7 @@
   top: 0;
   left: 0;
   bottom: 0;
-  transition: all ease-in-out 1s;
+  transition: all ease-in-out 0.5s;
   z-index: 9997;
   background: #040b14;
   overflow-y: auto;
