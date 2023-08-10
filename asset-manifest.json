@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.c32bb69a.css",
-    "main.js": "/static/js/main.bb9d2a89.js",
-    "static/media/navbar-img.JPG": "/static/media/navbar-img.07997e50489b5ff109f0.JPG",
-    "static/media/datahub.png": "/static/media/datahub.0434e42c8fdb8893180d.png",
+    "main.css": "/static/css/main.75be96ee.css",
+    "main.js": "/static/js/main.3669a613.js",
+    "static/media/help-center.png": "/static/media/help-center.2363561fae1ad72b01e9.png",
     "static/media/prof-img-2.png": "/static/media/prof-img-2.697cafae9815cf3fa72c.png",
-    "static/media/help-center.png": "/static/media/help-center.665c6b690a7643f7ec9d.png",
+    "static/media/datahub.png": "/static/media/datahub.6d8f044e7630511ba6a0.png",
     "static/media/hero-img.jpg": "/static/media/hero-img.a6580d1d3fb134a59bb3.jpg",
     "static/media/AIscreenshot.JPG": "/static/media/AIscreenshot.288bcf0f8e66f06430de.JPG",
     "static/media/mockup.JPG": "/static/media/mockup.e6f788f048ac4074c93a.JPG",
     "static/media/hero-img-large.png": "/static/media/hero-img-large.45d0f2965a648a18b8b9.png",
     "static/media/DogBook.JPG": "/static/media/DogBook.f601ee481535e0530084.JPG",
     "static/media/port-screenshot.JPG": "/static/media/port-screenshot.f0932fe589c3898bc597.JPG",
+    "static/media/profile-img.JPG": "/static/media/profile-img.48731df57d1dc5955662.JPG",
     "index.html": "/index.html",
-    "main.c32bb69a.css.map": "/static/css/main.c32bb69a.css.map",
-    "main.bb9d2a89.js.map": "/static/js/main.bb9d2a89.js.map"
+    "main.75be96ee.css.map": "/static/css/main.75be96ee.css.map",
+    "main.3669a613.js.map": "/static/js/main.3669a613.js.map"
   },
   "entrypoints": [
-    "static/css/main.c32bb69a.css",
-    "static/js/main.bb9d2a89.js"
+    "static/css/main.75be96ee.css",
+    "static/js/main.3669a613.js"
   ]
 }
