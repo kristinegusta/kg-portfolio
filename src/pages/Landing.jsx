@@ -80,7 +80,7 @@ const Landing = () => {
           </div>
         </div>
       </Section>
-      <Section primary id="resume">
+      <Section primary id="portfolio">
         <h2 className="section-title" data-aos="fade-right">
           Portfolio
         </h2>

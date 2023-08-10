@@ -33,7 +33,7 @@ const Navbar = () => {
               <a href="https://github.com/kristinegusta">
                 <FaGithub />
               </a>
-              <a href="https://www.linkedin.com/in/krist%C4%ABne-gusta/">
+              <a href="https://www.linkedin.com/in/kristine-gusta/">
                 <FaLinkedinIn />
               </a>
               <a href="https://dev.to/kristinegusta">
