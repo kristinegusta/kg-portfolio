@@ -7,7 +7,6 @@ const Hero = () => {
   // Create Ref element for Typed span.
   const el = useRef(null);
 
-  //use Effect for typed.js library
   useEffect(() => {
     const typed = new Typed(el.current, {
       strings: [
@@ -15,8 +14,8 @@ const Hero = () => {
         "Full stack developer",
         "Front-end developer",
         "React Developer",
-      ], // Strings to display
-      // Speed settings, try diffrent values untill you get good results
+        "Traveler",
+      ],
       startDelay: 300,
       typeSpeed: 100,
       backSpeed: 100,

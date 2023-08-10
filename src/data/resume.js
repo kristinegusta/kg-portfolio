@@ -9,12 +9,16 @@ const workExperience = [
       {
         id: 1,
         dutie:
-          "Designing and implementing user-friendly web interfaces for Maastricht Data Repository (Figma/Django and React TS/FastAPI)",
+          "Designing and implementing user-friendly web interfaces for Maastricht Data Repository (Figma, Django and React TS)",
       },
       {
         id: 2,
+        dutie: "Close collaboration with the Scrum team",
+      },
+      {
+        id: 3,
         dutie:
-          "Close collaboration with the Scrum team",
+          "Creating and maintaining a custom CMS and API routes with Python and FastAPI",
       },
     ],
   },

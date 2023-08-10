@@ -3,7 +3,7 @@ import { FaLinkedinIn, FaGithub, FaDev, FaReact } from "react-icons/fa";
 
 import { useState } from "react";
 import "./navbar-style.css";
-import profileImg from "../assets/navbar-img.JPG";
+import profileImg from "../assets/profile-img.JPG";
 
 const Navbar = () => {
   const [navbar, setNavbar] = useState(false);
@@ -41,7 +41,7 @@ const Navbar = () => {
               </a>
             </div>
           </div>
-          <navbar>
+          <div>
             <div className="navbar-cont">
               <ul>
                 <li>
@@ -58,7 +58,7 @@ const Navbar = () => {
                 </li>
               </ul>
             </div>
-          </navbar>
+          </div>
         </div>
 
         <footer>

@@ -39,11 +39,11 @@ const Landing = () => {
             <StatusBar tech={"HTML"} level={"100%"} />
             <StatusBar tech={"CSS"} level={"85%"} />
             <StatusBar tech={"JS"} level={"75%"} />
-            <StatusBar tech={"Django"} level={"75%"} />
+            <StatusBar tech={"Docker"} level={"75%"} />
           </div>
           <div className="skills-cont-sm">
-            <StatusBar tech={"React"} level={"65%"} />
-            <StatusBar tech={"GitHub"} level={"80%"} />
+            <StatusBar tech={"React"} level={"75%"} />
+            <StatusBar tech={"GitHub"} level={"90%"} />
             <StatusBar tech={"Node.js"} level={"70%"} />
             <StatusBar tech={"Python"} level={"60%"} />
           </div>

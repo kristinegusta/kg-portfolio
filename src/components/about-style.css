@@ -7,7 +7,7 @@
   align-items: center;
 }
 
-.counter-box>p>span {
+.counter-box > p > span {
   font-size: 2.5em;
   color: #272829;
 }
@@ -20,7 +20,7 @@
   text-align: center;
 }
 
-.counter-box>p {
+.counter-box > p {
   color: #122f57;
   font-size: 1.5em;
 }
@@ -63,5 +63,10 @@
   .title {
     color: #fff;
     width: 600px;
+  }
+  .counter-box-container {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
   }
 }

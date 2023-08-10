@@ -5,15 +5,18 @@ import {
   FaPhone,
   FaLocationArrow,
   FaMailBulk,
-  FaReact,
 } from "react-icons/fa";
 import { MdEventAvailable } from "react-icons/md";
-import { SiJavascript } from "react-icons/si";
 import profileImg from "../assets/prof-img-2.png";
 import PureCounter from "@srexi/purecounterjs";
 import "./about-style.css";
 
 const About = () => {
+  const workStartDate = new Date("2022-07-15");
+  const currentDate = new Date();
+  const timeDifference = currentDate - workStartDate;
+  const daysPassedAtWork = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
+
   //Pure counter span
   const counter = useRef(null);
   //Use Effect for counter
@@ -50,9 +53,7 @@ const About = () => {
             <li>
               <FaGlobe />
               <strong>Website :</strong>{" "}
-              <a href="https://kristinegusta.github.io/kg-portfolio/">
-                kg-portfolio/github.io
-              </a>
+              <a href="https://kristinegusta.com">kristinegusta.com</a>
             </li>
             <li>
               <FaPhone />
@@ -74,14 +75,22 @@ const About = () => {
             </li>
           </ul>
           <p>
-            Experience with the latest frontend technologies: <span>React, TypeScript, JS,
-            HTML5, CSS3</span>
+            Experience with the latest frontend technologies:{" "}
+            <span>React, TypeScript, JS, HTML5, CSS3, styled-components</span>
           </p>
           <p>
-            Backend technologies: <span>Django, Python, Node.js, Express,
-            SQL-databases ,MongoDB</span>
+            Backend technologies:{" "}
+            <span>
+              Django, Python, Node.js, Express, SQL-databases, MongoDB, FastAPI
+            </span>
           </p>
-          <p>Other : <span>Docker, Git, Nginx, Figma, UX/UI concepts, Scrum/Agile, Jira</span></p>
+          <p>
+            Other :{" "}
+            <span>
+              Docker, Git, Nginx, Figma, UX/UI concepts, Scrum/Agile, Jira
+            </span>
+          </p>
+          <p>Professional Scrum Master I certification</p>
         </div>
       </div>
 
@@ -92,53 +101,55 @@ const About = () => {
         A career as a Web developer will give me the opportunity to use my
         creativity and technical skills.
       </p>
-      <div className="counter-box ">
-        <p>
-          {" "}
-          <span
-            data-purecounter-start="0"
-            data-purecounter-end="1000"
-            className="purecounter"
-            ref={counter}
-          >
+      <div className="counter-box-container">
+        <div className="counter-box ">
+          <p>
             {" "}
-            0{" "}
-          </span>{" "}
-          <br />
-          Hours of intensive training
-        </p>
-      </div>
-      <div className="counter-box ">
-        <p>
-          {" "}
-          <span
-            data-purecounter-start="0"
-            data-purecounter-end="10"
-            className="purecounter"
-            ref={counter}
-          >
+            <span
+              data-purecounter-start="0"
+              data-purecounter-end="1000"
+              className="purecounter"
+              ref={counter}
+            >
+              {" "}
+              0{" "}
+            </span>{" "}
+            <br />
+            Hours of intensive training
+          </p>
+        </div>
+        <div className="counter-box ">
+          <p>
             {" "}
-            0{" "}
-          </span>{" "}
-          <br />
-          Technologies picked up
-        </p>
-      </div>
-      <div className="counter-box ">
-        <p>
-          {" "}
-          <span
-            data-purecounter-start="0"
-            data-purecounter-end="328"
-            className="purecounter"
-            ref={counter}
-          >
+            <span
+              data-purecounter-start="0"
+              data-purecounter-end="10"
+              className="purecounter"
+              ref={counter}
+            >
+              {" "}
+              0{" "}
+            </span>{" "}
+            <br />
+            Technologies picked up
+          </p>
+        </div>
+        <div className="counter-box ">
+          <p>
             {" "}
-            0{" "}
-          </span>{" "}
-          <br />
-          days of working experience
-        </p>
+            <span
+              data-purecounter-start="0"
+              data-purecounter-end={daysPassedAtWork}
+              className="purecounter"
+              ref={counter}
+            >
+              {" "}
+              0{" "}
+            </span>{" "}
+            <br />
+            days of working experience
+          </p>
+        </div>
       </div>
     </>
   );

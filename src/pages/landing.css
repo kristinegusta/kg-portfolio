@@ -97,6 +97,10 @@ li > strong {
   margin-bottom: 1rem;
 }
 
+p {
+  line-height: 1.7;
+}
+
 @media only screen and (min-width: 800px) {
   .title {
     color: #fff;

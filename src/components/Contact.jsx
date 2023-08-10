@@ -24,6 +24,9 @@ const Contact = () => {
       center: [lng, lat],
       zoom: zoom,
     });
+    const marker = new mapboxgl.Marker()
+      .setLngLat([5.58412, 51.04316])
+      .addTo(map.current);
   }, []);
   return (
     <div className="contact">
