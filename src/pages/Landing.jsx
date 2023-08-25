@@ -24,7 +24,7 @@ const Landing = () => {
       <Section id="about">
         <About />
       </Section>
-      <Section primary id="skills">
+      {/* <Section primary id="skills">
         <h2 className="section-title" data-aos="fade-right">
           Skills
         </h2>
@@ -54,7 +54,7 @@ const Landing = () => {
           <StatusBar tech={"English"} level={"80%"} />
           <StatusBar tech={"Dutch"} level={"50%"} />
         </div>
-      </Section>
+      </Section> */}
       <Section id="resume">
         <h2 className="section-title" data-aos="fade-right">
           Resume

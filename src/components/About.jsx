@@ -43,7 +43,7 @@ const About = () => {
           <img src={profileImg} alt="profile image" className="img-fluid" />
         </div>
         <div className="info-container-small">
-          <h3 className="section-subtitle">Junior Full-stack Web Developer</h3>
+          <h3 className="section-subtitle">Web Developer</h3>
           <p>Eager to develop the best complex digital solutions.</p>
           <ul>
             <li>
