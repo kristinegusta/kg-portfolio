@@ -7,6 +7,7 @@ import Portfolio from "../assets/portfolio/port-screenshot.JPG";
 import Mockup from "../assets/portfolio/mockup.JPG";
 import Datahub from "../assets/portfolio/datahub.png";
 import HelpCenter from "../assets/portfolio/help-center.png";
+import MDR from "../assets/portfolio/MDR.png";
 
 const Carousel = () => {
   const options = {
@@ -29,7 +30,7 @@ const Carousel = () => {
   return (
     <Splide options={options} aria-label="Portfolio">
       <SplideSlide>
-        <a>
+        <a href="https://datahubmaastricht.nl/">
           <div className="portfolio-slide">
             <div
               className="portfolio-img"
@@ -67,7 +68,7 @@ const Carousel = () => {
         </a>
       </SplideSlide>
       <SplideSlide>
-        <a>
+        <a href="https://help.mdr.datahubmaastricht.nl/">
           <div className="portfolio-slide">
             <div
               className="portfolio-img"
@@ -86,6 +87,18 @@ const Carousel = () => {
               className="portfolio-img"
               style={{
                 backgroundImage: `url(${DogBook})`,
+              }}
+            ></div>
+          </div>
+        </a>
+      </SplideSlide>
+      <SplideSlide>
+        <a href="https://mdr.datahubmaastricht.nl/">
+          <div className="portfolio-slide">
+            <div
+              className="portfolio-img"
+              style={{
+                backgroundImage: `url(${MDR})`,
               }}
             ></div>
           </div>

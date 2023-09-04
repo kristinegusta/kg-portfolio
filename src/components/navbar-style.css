@@ -77,7 +77,14 @@
   text-align: center;
   width: 36px;
   height: 36px;
-  transition: all ease-in-out 1s;
+}
+
+.socials a svg {
+  transition: all ease-in-out 0.3s;
+}
+
+.socials a:hover svg {
+  color: #149ddd;
 }
 
 .navbar-cont {
