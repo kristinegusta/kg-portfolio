@@ -24,37 +24,6 @@ const Landing = () => {
       <Section id="about">
         <About />
       </Section>
-      {/* <Section primary id="skills">
-        <h2 className="section-title" data-aos="fade-right">
-          Skills
-        </h2>
-        <p>
-          The number of coding languages has grown but tend to share underlying
-          principles. As a full stack developer, I understand the need to learn
-          the languages required for possible projects according to their needs.
-        </p>
-        <h3 className="section-subtitle mg-large">Technical</h3>
-        <div className="skills-cont-lg">
-          <div className="skills-cont-sm">
-            <StatusBar tech={"HTML"} level={"100%"} />
-            <StatusBar tech={"CSS"} level={"85%"} />
-            <StatusBar tech={"JS"} level={"75%"} />
-            <StatusBar tech={"Docker"} level={"75%"} />
-          </div>
-          <div className="skills-cont-sm">
-            <StatusBar tech={"React"} level={"75%"} />
-            <StatusBar tech={"GitHub"} level={"90%"} />
-            <StatusBar tech={"Node.js"} level={"70%"} />
-            <StatusBar tech={"Python"} level={"60%"} />
-          </div>
-        </div>
-        <h3 className="section-subtitle mg-large">Languages</h3>
-        <div className="skills-cont-sm">
-          <StatusBar tech={"Latvian"} level={"100%"} />
-          <StatusBar tech={"English"} level={"80%"} />
-          <StatusBar tech={"Dutch"} level={"50%"} />
-        </div>
-      </Section> */}
       <Section id="resume">
         <h2 className="section-title" data-aos="fade-right">
           Resume

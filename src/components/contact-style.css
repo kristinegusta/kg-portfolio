@@ -33,5 +33,12 @@
 }
 
 .map-container {
-  height: 400px;
+  aspect-ratio: 1/1;
+}
+
+@media only screen and (min-width: 1000px) {
+  .map-container {
+    aspect-ratio: unset;
+    height: 400px;
+  }
 }

@@ -5,8 +5,8 @@ import DogBook from "../assets/portfolio/DogBook.JPG";
 import AIscr from "../assets/portfolio/AIscreenshot.JPG";
 import Portfolio from "../assets/portfolio/port-screenshot.JPG";
 import Mockup from "../assets/portfolio/mockup.JPG";
-import Datahub from "../assets/portfolio/datahub.png"
-import HelpCenter from "../assets/portfolio/help-center.png"
+import Datahub from "../assets/portfolio/datahub.png";
+import HelpCenter from "../assets/portfolio/help-center.png";
 
 const Carousel = () => {
   const options = {
@@ -36,6 +36,31 @@ const Carousel = () => {
               style={{
                 backgroundImage: `url(${Datahub})`,
                 backgroundPosition: "top",
+              }}
+            ></div>
+          </div>
+        </a>
+      </SplideSlide>
+      <SplideSlide>
+        <a href="https://github.com/kristinegusta/crafted-business">
+          <div className="portfolio-slide">
+            <div
+              className="portfolio-img"
+              style={{
+                backgroundImage: `url(${Mockup})`,
+                backgroundPosition: "inherit",
+              }}
+            ></div>
+          </div>
+        </a>
+      </SplideSlide>
+      <SplideSlide>
+        <a href="https://github.com/kristinegusta/kg-portfolio">
+          <div className="portfolio-slide">
+            <div
+              className="portfolio-img"
+              style={{
+                backgroundImage: `url(${Portfolio})`,
               }}
             ></div>
           </div>
@@ -73,31 +98,6 @@ const Carousel = () => {
               className="portfolio-img"
               style={{
                 backgroundImage: `url(${AIscr})`,
-              }}
-            ></div>
-          </div>
-        </a>
-      </SplideSlide>
-      <SplideSlide>
-        <a href="https://github.com/kristinegusta/kg-portfolio">
-          <div className="portfolio-slide">
-            <div
-              className="portfolio-img"
-              style={{
-                backgroundImage: `url(${Portfolio})`,
-              }}
-            ></div>
-          </div>
-        </a>
-      </SplideSlide>
-      <SplideSlide>
-        <a href="https://github.com/kristinegusta/crafted-business">
-          <div className="portfolio-slide">
-            <div
-              className="portfolio-img"
-              style={{
-                backgroundImage: `url(${Mockup})`,
-                backgroundPosition: "inherit",
               }}
             ></div>
           </div>

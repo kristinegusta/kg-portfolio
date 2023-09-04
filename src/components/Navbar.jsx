@@ -3,7 +3,7 @@ import { FaLinkedinIn, FaGithub, FaDev, FaReact } from "react-icons/fa";
 
 import { useState } from "react";
 import "./navbar-style.css";
-import profileImg from "../assets/profile-img.JPG";
+import profileImg from "../assets/dark_logo_kg.png";
 
 const Navbar = () => {
   const [navbar, setNavbar] = useState(false);
@@ -67,7 +67,7 @@ const Navbar = () => {
               <p>
                 <strong>Made with React</strong>
               </p>
-              <p>2022 &copy; Kristine Gusta</p>
+              <p>2023 &copy; Kristine Gusta</p>
             </div>
             <FaReact />
           </div>

@@ -7,7 +7,7 @@ import {
   FaMailBulk,
 } from "react-icons/fa";
 import { MdEventAvailable } from "react-icons/md";
-import profileImg from "../assets/prof-img-2.png";
+import profileImg from "../assets/prof-img-1.png";
 import PureCounter from "@srexi/purecounterjs";
 import "./about-style.css";
 
@@ -91,6 +91,9 @@ const About = () => {
             </span>
           </p>
           <p>Professional Scrum Master I certification</p>
+          <p>
+            Languages : <span>Latvian, English, Dutch</span>
+          </p>
         </div>
       </div>
 
