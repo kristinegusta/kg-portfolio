@@ -1,6 +1,6 @@
 # My portfolio Website
 
-This project is deployed on [GitHub pages](https://kristinegusta.github.io/kg-portfolio/).
+This project is deployed on [GitHub pages](https://kristinegusta.com).
 
 ## Made with React
 
