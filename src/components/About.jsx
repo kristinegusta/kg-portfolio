@@ -90,7 +90,7 @@ const About = () => {
               Docker, Git, Nginx, Figma, UX/UI concepts, Scrum/Agile, Jira
             </span>
           </p>
-          <p>Professional Scrum Master I certification</p>
+          <p>Professional Scrum Master I certification, Google Analytics</p>
           <p>
             Languages : <span>Latvian, English, Dutch</span>
           </p>
