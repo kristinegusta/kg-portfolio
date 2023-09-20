@@ -40,7 +40,7 @@ const About = () => {
       </p>
       <div className="info-container-large">
         <div className="about-img" data-aos="fade-right">
-          <img src={profileImg} alt="profile image" className="img-fluid" />
+          <img src={profileImg} alt="Kristine" className="img-fluid" />
         </div>
         <div className="info-container-small">
           <h3 className="section-subtitle">Web Developer</h3>
