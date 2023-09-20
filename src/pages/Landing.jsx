@@ -7,7 +7,8 @@ import About from "../components/About";
 import Hero from "../components/Hero";
 import Resume from "../components/Resume";
 import { workExperience, educationExperience } from "../data/resume";
-import Carousel from "../components/Carousel";
+// import Carousel from "../components/Carousel";
+import Portfolio from "../components/Portfolio";
 import Contact from "../components/Contact";
 
 const Landing = () => {
@@ -117,7 +118,8 @@ const Landing = () => {
           function properly. In order to do that, collaboration with the rest of
           your team is very important.
         </p>
-        <Carousel />
+        {/* <Carousel /> */}
+        <Portfolio />
       </Section>
 
       <Section id="contact" ref={contactRef}>
