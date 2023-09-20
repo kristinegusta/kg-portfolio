@@ -23,7 +23,7 @@ const Navbar = ({ activeSection }) => {
       <div className={navbar ? "navbar-left block" : "navbar-left none"}>
         <div>
           <div className="profile">
-            <img src={profileImg} alt="profile picture" />
+            <img src={profileImg} alt="Profile logo" />
 
             <a href="#hero">
               <h4>Kristine Gusta</h4>

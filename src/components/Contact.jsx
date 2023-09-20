@@ -15,7 +15,7 @@ const Contact = () => {
   const map = useRef(null);
   const [lng, setLng] = useState(5.58412);
   const [lat, setLat] = useState(51.04316);
-  const [zoom, setZoom] = useState(9);
+  const [zoom, setZoom] = useState(4);
 
   useEffect(() => {
     map.current = new mapboxgl.Map({
