@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.0a942d80.css",
-    "main.js": "/static/js/main.fadef58a.js",
+    "main.js": "/static/js/main.507665b7.js",
     "static/media/prof-img-1.png": "/static/media/prof-img-1.0bcef2b7cab7941c8ce5.png",
     "static/media/help-center.png": "/static/media/help-center.2363561fae1ad72b01e9.png",
     "static/media/datahub.png": "/static/media/datahub.6d8f044e7630511ba6a0.png",
@@ -12,13 +12,13 @@
     "static/media/hero-img-large.png": "/static/media/hero-img-large.45d0f2965a648a18b8b9.png",
     "static/media/DogBook.JPG": "/static/media/DogBook.f601ee481535e0530084.JPG",
     "static/media/port-screenshot.JPG": "/static/media/port-screenshot.f0932fe589c3898bc597.JPG",
-    "static/media/dark_logo_kg.png": "/static/media/dark_logo_kg.ea79918bc46776852c21.png",
+    "static/media/dark_logo_kg.png": "/static/media/dark_logo_kg.19e66b4cc8c93f6ceefe.png",
     "index.html": "/index.html",
     "main.0a942d80.css.map": "/static/css/main.0a942d80.css.map",
-    "main.fadef58a.js.map": "/static/js/main.fadef58a.js.map"
+    "main.507665b7.js.map": "/static/js/main.507665b7.js.map"
   },
   "entrypoints": [
     "static/css/main.0a942d80.css",
-    "static/js/main.fadef58a.js"
+    "static/js/main.507665b7.js"
   ]
 }
