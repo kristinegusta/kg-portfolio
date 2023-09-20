@@ -97,6 +97,10 @@
   padding: 12px 15px;
   margin-bottom: 8px;
   font-size: 15px;
+  transition: all 0.5s ease;
+}
+.navbar-cont a.active {
+  color: #149ddd;
 }
 .navbar-cont a:hover {
   color: #fff;

@@ -3,7 +3,7 @@ import Typed from "typed.js";
 import { useEffect, useRef } from "react";
 import "./hero-style.css";
 
-const Hero = () => {
+const Hero = ({ activeSection }) => {
   // Create Ref element for Typed span.
   const el = useRef(null);
 
@@ -30,7 +30,7 @@ const Hero = () => {
 
   return (
     <div id="hero" className="center">
-      <Navbar />
+      <Navbar activeSection={activeSection} />
       <div className="title">
         <h1>Kristine Gusta</h1>
         <h2>

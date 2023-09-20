@@ -1,11 +1,10 @@
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { FaLinkedinIn, FaGithub, FaDev, FaReact } from "react-icons/fa";
-
 import { useState } from "react";
 import "./navbar-style.css";
 import profileImg from "../assets/dark_logo_kg.png";
 
-const Navbar = () => {
+const Navbar = ({ activeSection }) => {
   const [navbar, setNavbar] = useState(false);
 
   const handleClick = () => {
@@ -45,16 +44,36 @@ const Navbar = () => {
             <div className="navbar-cont">
               <ul>
                 <li>
-                  <a href="#about">About</a>
+                  <a
+                    href="#about"
+                    className={activeSection === "about" ? "active" : ""}
+                  >
+                    About
+                  </a>
                 </li>
                 <li>
-                  <a href="#resume">Resume</a>
+                  <a
+                    href="#resume"
+                    className={activeSection === "resume" ? "active" : ""}
+                  >
+                    Resume
+                  </a>
                 </li>
                 <li>
-                  <a href="#portfolio">Portfolio</a>
+                  <a
+                    href="#portfolio"
+                    className={activeSection === "portfolio" ? "active" : ""}
+                  >
+                    Portfolio
+                  </a>
                 </li>
                 <li>
-                  <a href="#contact">Contact</a>
+                  <a
+                    href="#contact"
+                    className={activeSection === "contact" ? "active" : ""}
+                  >
+                    Contact
+                  </a>
                 </li>
               </ul>
             </div>
