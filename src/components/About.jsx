@@ -76,7 +76,9 @@ const About = () => {
           </ul>
           <p>
             Experience with the latest frontend technologies:{" "}
-            <span>React, TypeScript, JS, HTML5, CSS3, styled-components</span>
+            <span>
+              React, TypeScript, JS, HTML5, CSS3, styled-components, Decap CMS
+            </span>
           </p>
           <p>
             Backend technologies:{" "}
