@@ -20,7 +20,7 @@ const workExperience = [
   },
   {
     id: 2,
-    title: "Front-end developer",
+    title: "Full-stack developer with focus on Frontend",
     company: "Maastricht University DataHub",
     location: "Maastricht, Netherlands",
     time: "July 2022 - December 2023",
