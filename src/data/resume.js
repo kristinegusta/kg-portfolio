@@ -71,9 +71,19 @@ const workExperience = [
       },
     ],
   },
+];
+
+const educationExperience = [
   {
-    id: 4,
-    title: "Junior Full-stack Web Developer trainee",
+    id: 1,
+    title: "Scrum Master Training",
+    company: "ScrumIT",
+    location: "Eindhoven, Netherlands",
+    time: "2023",
+  },
+  {
+    id: 2,
+    title: "Junior Full-stack Web Developer training",
     company: "BeCode.org",
     location: "Brussels, Belgium",
     time: "January 2022 - July 2022",
@@ -81,42 +91,16 @@ const workExperience = [
       {
         id: 1,
         dutie:
-          "Full-time training focused on self- learning and problem solving",
-      },
-      {
-        id: 2,
-        dutie: "Focus on both, strong technical and soft skills",
-      },
-      {
-        id: 3,
-        dutie:
-          "Learning various technologies by applying them in various training and real use case projects",
+          "Full-time training with an emphasis on self-learning and creative problem-solving in full-stack development",
       },
     ],
   },
-];
-
-const educationExperience = [
   {
-    id: 1,
+    id: 3,
     title: "Bachelor Computer Science",
     company: "Latvia University of Life Sciences and Technologies",
     location: "Jelgava, Latvia",
     time: "2016-2018",
-  },
-  {
-    id: 2,
-    title: "Web Development course",
-    company: "Riga Coding School",
-    location: "Riga,Latvia",
-    time: "2021",
-  },
-  {
-    id: 3,
-    title: "Scrum Master Training",
-    company: "ScrumIT",
-    location: "Eindhoven, Netherlands",
-    time: "2022",
   },
 ];
 
