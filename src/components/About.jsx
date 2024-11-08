@@ -76,7 +76,7 @@ const About = () => {
             </li>
             <li>
               <MdEventAvailable />
-              <strong>Availability :</strong> Currently none
+              <strong>Availability :</strong> On request
             </li>
           </ul>
           <p>
