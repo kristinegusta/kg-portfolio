@@ -2,7 +2,7 @@ import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { FaLinkedinIn, FaGithub, FaDev, FaReact } from "react-icons/fa";
 import { useState } from "react";
 import "./navbar-style.css";
-import profileImg from "../assets/dark_logo_kg.png";
+// import profileImg from "../assets/dark_logo_kg.png";
 
 const Navbar = ({ activeSection }) => {
   const [navbar, setNavbar] = useState(false);
@@ -23,10 +23,11 @@ const Navbar = ({ activeSection }) => {
       <div className={navbar ? "navbar-left block" : "navbar-left none"}>
         <div>
           <div className="profile">
-            <img src={profileImg} alt="Profile logo" />
+            {/* Removed until more suitable image has been found */}
+            {/* <img src={profileImg} alt="Profile logo" /> */}
 
             <a href="#hero">
-              <h4>Kristine Gusta</h4>
+              <h4>Kristīne Gusta</h4>
             </a>
             <div className="socials">
               <a href="https://github.com/kristinegusta">

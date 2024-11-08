@@ -12,6 +12,7 @@ const Hero = ({ activeSection }) => {
       strings: [
         "Full stack developer",
         "Front-end developer",
+        "Data Engineer",
         "Photographer",
         "React Developer",
         "Traveler",
@@ -32,7 +33,7 @@ const Hero = ({ activeSection }) => {
     <div id="hero" className="center">
       <Navbar activeSection={activeSection} />
       <div className="title">
-        <h1>Kristine Gusta</h1>
+        <h1>Kristīne Gusta</h1>
         <h2>
           I am <span ref={el}></span>
         </h2>

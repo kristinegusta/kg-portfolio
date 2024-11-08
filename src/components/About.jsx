@@ -29,22 +29,27 @@ const About = () => {
         About
       </h2>
       <p>
-        Web Developer embracing a promising career in the field of IT. After
-        exploring an alternative career path, I have discovered that IT is the
-        right direction for me to pursue. Possessing a flexible and creative
-        mindset, I am fully committed to my work and bring an unwaveringly
-        positive attitude to every project!
-        <br />I have a profound passion for coding and other than that, I have
-        diverse interests such as horse riding, snowboarding, traveling,
-        spending time with family and friends, including the four-legged ones.
+        <strong>
+          Currently a Data Engineer with a passion in front-end development, I
+          am dedicated to bringing a unique blend of technical expertise and
+          creativity to each project.
+        </strong>{" "}
+        I have worked on various projects across different industries, but I
+        have the most experience in healthcare and medical data solutions.
+        Outside of that, I enjoy building websites for clients in many fields,
+        with a particular focus on helping small businesses establish their
+        online presence.
+        <br />
+        In my free time, I enjoy horse riding, snowboarding, traveling, and
+        spending quality time with family, friends, and my four-legged
+        companions.
       </p>
       <div className="info-container-large">
         <div className="about-img" data-aos="fade-right">
           <img src={profileImg} alt="Kristine" className="img-fluid" />
         </div>
         <div className="info-container-small">
-          <h3 className="section-subtitle">Web Developer</h3>
-          <p>Eager to develop the best complex digital solutions.</p>
+          <h3 className="section-subtitle">Data Engineer</h3>
           <ul>
             <li>
               <FaBirthdayCake />
@@ -53,7 +58,7 @@ const About = () => {
             <li>
               <FaGlobe />
               <strong>Website :</strong>{" "}
-              <a href="https://kristinegusta.com">kristinegusta.com</a>
+              <a href="https://kristinegusta.work">kristinegusta.work</a>
             </li>
             <li>
               <FaPhone />
@@ -77,68 +82,34 @@ const About = () => {
           <p>
             Experience with the latest frontend technologies:{" "}
             <span>
-              React, TypeScript, JS, HTML5, CSS3, styled-components, Decap CMS
+              React, JS, HTML5, CSS3, styled-components, Decap CMS, 11ty
             </span>
           </p>
           <p>
             Backend technologies:{" "}
             <span>
-              Django, Python, Node.js, Express, SQL-databases, MongoDB, FastAPI
+              Django, Python, Node.js, SQL-databases, MongoDB, FastAPI, Java
+              Spring Boot
             </span>
           </p>
           <p>
             Other :{" "}
             <span>
-              Docker, Git, Nginx, Figma, UX/UI concepts, Scrum/Agile, Jira
+              Docker, Git, Nginx, Figma, UX/UI concepts, Scrum/Agile, Jira,
+              openEHR, FHIR/HL7, selenium
             </span>
           </p>
-          <p>Professional Scrum Master I certification, Google Analytics</p>
+          <p>
+            Professional Scrum Master I certification, Google Analytics, Data
+            Modeling
+          </p>
           <p>
             Languages : <span>Latvian, English, Dutch</span>
           </p>
         </div>
       </div>
 
-      <h2 className="section-title" data-aos="fade-right">
-        Facts
-      </h2>
-      <p>
-        A career as a Web developer will give me the opportunity to use my
-        creativity and technical skills.
-      </p>
       <div className="counter-box-container">
-        <div className="counter-box ">
-          <p>
-            {" "}
-            <span
-              data-purecounter-start="0"
-              data-purecounter-end="1000"
-              className="purecounter"
-              ref={counter}
-            >
-              {" "}
-              0{" "}
-            </span>{" "}
-            <br />
-            Hours of intensive training
-          </p>
-        </div>
-        <div className="counter-box ">
-          <p>
-            {" "}
-            <span
-              data-purecounter-start="0"
-              data-purecounter-end="10"
-              className="purecounter"
-              ref={counter}
-            >
-              {" "}
-              0{" "}
-            </span>{" "}
-            <br />
-            Technologies picked up
-          </p>
-        </div>
         <div className="counter-box ">
           <p>
             {" "}
@@ -153,6 +124,39 @@ const About = () => {
             </span>{" "}
             <br />
             days of working experience
+          </p>
+        </div>
+        <div className="counter-box ">
+          <p>
+            {" "}
+            <span
+              data-purecounter-start="0"
+              data-purecounter-end="10"
+              className="purecounter"
+              ref={counter}
+            >
+              {" "}
+              0
+            </span>{" "}
+            <br />
+            Satisfied clients
+          </p>
+        </div>
+
+        <div className="counter-box ">
+          <p>
+            {" "}
+            <span
+              data-purecounter-start="0"
+              data-purecounter-end="22"
+              className="purecounter"
+              ref={counter}
+            >
+              {" "}
+              0{" "}
+            </span>{" "}
+            <br />
+            Technologies picked up
           </p>
         </div>
       </div>

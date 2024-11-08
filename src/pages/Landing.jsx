@@ -88,10 +88,12 @@ const Landing = () => {
           Resume
         </h2>
         <p>
-          A diversity in the fields in ones resume , in my opinion, might be a
-          plus. I do believe my previos experiece has thought me a lot and has
-          been a good influence. However, I am looking forward to what my career
-          change will bring.
+          I believe that a diverse background can be a valuable asset. My
+          previous experiences have equipped me with a broad set of skills and
+          perspectives, which have greatly contributed to my growth. I embrace
+          being flexible and agile in my approach, as it allows me to adapt
+          quickly, solve problems creatively, and deliver effective solutions in
+          ever-changing environments.
         </p>
         <div className="skills-cont-lg">
           <div className="skills-cont-sm">
@@ -112,12 +114,6 @@ const Landing = () => {
         <h2 className="section-title" data-aos="fade-right">
           Portfolio
         </h2>
-        <h3 className="section-subtitle">Various solo and group projects</h3>
-        <p>
-          A Web Developer is in charge of ensuring websites look good and
-          function properly. In order to do that, collaboration with the rest of
-          your team is very important.
-        </p>
         {/* <Carousel /> */}
         <Portfolio />
       </Section>
@@ -126,7 +122,10 @@ const Landing = () => {
         <h2 className="section-title" data-aos="fade-right">
           Contact
         </h2>
-        <p>Do not hesitate to contact me for a conversation!</p>
+        <p>
+          Feel free to contact me to discuss how I can help your business grow
+          and succeed.
+        </p>
         <Contact />
       </Section>
     </div>
