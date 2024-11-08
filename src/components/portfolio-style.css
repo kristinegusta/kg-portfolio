@@ -32,3 +32,9 @@
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
   }
 }
+
+@media (min-width: 1668px) {
+  .image-container {
+    max-height: 350px;
+  }
+}
