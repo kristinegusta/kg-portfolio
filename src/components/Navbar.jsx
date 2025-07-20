@@ -45,34 +45,22 @@ const Navbar = ({ activeSection }) => {
             <div className="navbar-cont">
               <ul>
                 <li>
-                  <a
-                    href="#about"
-                    className={activeSection === "about" ? "active" : ""}
-                  >
+                  <a href="#about" className={activeSection === "about" ? "active" : ""}>
                     About
                   </a>
                 </li>
                 <li>
-                  <a
-                    href="#resume"
-                    className={activeSection === "resume" ? "active" : ""}
-                  >
+                  <a href="#resume" className={activeSection === "resume" ? "active" : ""}>
                     Resume
                   </a>
                 </li>
                 <li>
-                  <a
-                    href="#portfolio"
-                    className={activeSection === "portfolio" ? "active" : ""}
-                  >
+                  <a href="#portfolio" className={activeSection === "portfolio" ? "active" : ""}>
                     Portfolio
                   </a>
                 </li>
                 <li>
-                  <a
-                    href="#contact"
-                    className={activeSection === "contact" ? "active" : ""}
-                  >
+                  <a href="#contact" className={activeSection === "contact" ? "active" : ""}>
                     Contact
                   </a>
                 </li>
@@ -87,7 +75,7 @@ const Navbar = ({ activeSection }) => {
               <p>
                 <strong>Made with React</strong>
               </p>
-              <p>2023 &copy; Kristine Gusta</p>
+              <p>2025 &copy; Kristine Gusta</p>
             </div>
             <FaReact />
           </div>

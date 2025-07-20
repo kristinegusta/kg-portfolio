@@ -19,7 +19,7 @@ const images = [
     id: 3,
     src: EBraun,
     alt: "EBraun",
-    url: "https://kristinegusta.github.io/eBraun/",
+    url: "https://3hphysio.nl",
   },
   {
     id: 4,
@@ -31,7 +31,7 @@ const images = [
     id: 5,
     src: Veti,
     alt: "VetiActive",
-    url: "https://animated-torrone-0d0bb5.netlify.app/",
+    url: "",
   },
 ];
 
